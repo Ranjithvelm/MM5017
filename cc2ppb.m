@@ -1,0 +1,6 @@
+function ppb = cc2ppb(cc,rho,atwt)
+N_a = 6.02214076e+23;
+N = (rho*N_a)/atwt;
+a = (cc*1e+6)/N;
+ppb = a*10^9;
+end
